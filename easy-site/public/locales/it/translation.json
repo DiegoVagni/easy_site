@@ -1,0 +1,23 @@
+{
+	"menu": {
+		"services": "Servizi",
+		"team": "Team",
+		"contacts": "Contatti",
+		"projects": "Progetti",
+		"easy": "Easy",
+		"graphicservices": "Grafica",
+		"webservices": "Web",
+		"mission": "Missione"
+	},
+	"projects": {
+		"clients": "Cliente",
+		"year": "Anno",
+		"description": "Descrizione",
+		"skills": "Skills"
+	},
+
+	"deployedProjects": {
+		"Tarzanello": "un lavoro pubblicitario per una ditta di tarzanelli..che sono un po' come sarcazzi ma meno sarcazzosi'",
+		"TarzanelloSkills": "web design graphic design\n pubblicitosità\n tarzanellosità estrema"
+	}
+}

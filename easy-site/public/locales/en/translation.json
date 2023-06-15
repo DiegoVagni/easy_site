@@ -1,0 +1,23 @@
+{
+	"menu": {
+		"services": "Services",
+		"team": "Team",
+		"contacts": "Contacts",
+		"projects": "Projects",
+		"easy": "Easy",
+		"graphicservices": "Graphics",
+		"webservices": "Web",
+		"mission": "Mission"
+	},
+	"projects": {
+		"clients": "Client",
+		"year": "Year",
+		"description": "Description",
+		"skills": "Skills"
+	},
+
+	"deployedProjects": {
+		"Tarzanello": "a advertising work for a society that produces tarzanellis...they are like sarcazzis but with less sarcazziness",
+		"TarzanelloSkills": "web design\n graphic design\n advertising\n extreme tarzennellity"
+	}
+}

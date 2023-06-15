@@ -1,0 +1,16 @@
+.name {
+	color: #f2ab15;
+}
+.role {
+	color: white;
+}
+.mail {
+	color: white;
+	text-decoration-style:double;
+}
+.images {
+	border: 5px solid white;
+	border-radius:100%;
+	width:350px;
+	height:350px;
+}
