@@ -16,6 +16,7 @@ function NavBarSubMenu(props) {
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         event.stopPropagation()
+        console.log(event.currentTarget)
         setAnchorElNav(event.currentTarget);
     };
 
@@ -33,12 +34,12 @@ function NavBarSubMenu(props) {
                
                 anchorOrigin={{
                     vertical: "bottom",
-                    horizontal: "left"
+                    horizontal: "right"
                 }}
                 keepMounted
                 transformOrigin={{
                     vertical: "top",
-                    horizontal: "left"
+                    horizontal: "right"
                 }}
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}

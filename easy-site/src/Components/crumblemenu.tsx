@@ -40,7 +40,7 @@ function CrumbleMenu(props) {
                     aria-controls="menu-appbar"
                     aria-haspopup="true"
                     onClick={handleOpenNavMenu}
-                    color="#000000"
+                    color="default"
                 >
                     <MenuIcon />
                 </IconButton>
@@ -63,7 +63,7 @@ function CrumbleMenu(props) {
                     display: { xs: "block", md: "none" }
                 }}
             >
-                {props.pages.map((page, index) => {
+                {pages.map((page, index) => {
                     var content
                     if (page.props.subpages.length > 0) {
                         content = <NavBarCrumbleSubMenu page={page} key={KeyGenerator.GetNextKey()}  colours={colours} index={index} subpages={page.props.subpages ? page.props.subpages : []} />

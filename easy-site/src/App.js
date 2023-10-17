@@ -45,17 +45,17 @@ const { i18n } = useTranslation();
                 <header>
                     <ResponsiveAppBar localLanguage={localLanguage} changeLanguage={changeLanguage} pages={[services, projects, easy, contatti]} colours={["#4c4c4b", "#f2ab15", "#60b8b2", "#7f5d9d"]}>{<p>test</p>}</ResponsiveAppBar>
                     </header>
-                <main className="pageContent" maxWidth={false}>
+                <main className="pageContent" maxWidth={false} maxHeight={false} sx={{height:"100%"} }>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/services" element={<Services color="#4c4c4b"/>}/>
-                        <Route path="/services/webservices" element={<WebServices color="#4c4c4b"/>}/>
-                        <Route path="/services/graphicservices" element={<GraphicServices color="#4c4c4b"/>}/>
-                        <Route path="/projects" element={<Projects color="#f2ab15"/> }/>
-                        <Route path="easy/team" element={<Team color="#60b8b2"/>} />
-                        <Route path="easy/mission" element={<Mission color="#60b8b2"/>} />
-                        <Route path="easy" element={<Easy color="#60b8b2"/>} />
-                        <Route path="/contacts" element={<Contacts color="#7f5d9d"/> } />
+                        <Route path="/services" element={<Services color="#ffffff"/>}/>
+                        <Route path="/services/webservices" element={<WebServices color="#ffffff"/>}/>
+                        <Route path="/services/graphicservices" element={<GraphicServices color="#ffffff"/>}/>
+                        <Route path="/projects" element={<Projects color="#ffffff"/> }/>
+                        <Route path="easy/team" element={<Team color="#ffffff"/>} />
+                        <Route path="easy/mission" element={<Mission color="#ffffff"/>} />
+                        <Route path="easy" element={<Easy color="#ffffff"/>} />
+                        <Route path="/contacts" element={<Contacts color="#ffffff"/> } />
                     </Routes>
             </main>
                 </BrowserRouter>

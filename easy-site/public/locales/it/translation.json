@@ -9,6 +9,14 @@
 		"webservices": "Web",
 		"mission": "Missione"
 	},
+	"miscellaneus": {
+		"graphicServices": "Servizi grafici",
+		"webServices": "Servizi web"
+	},
+	"texts": {
+		"graphicSeriveces": "testo Servizi grafici",
+		"webServices": "testo Servizi web"
+	},
 	"projects": {
 		"clients": "Cliente",
 		"year": "Anno",

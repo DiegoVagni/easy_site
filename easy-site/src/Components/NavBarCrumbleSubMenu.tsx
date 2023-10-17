@@ -10,6 +10,7 @@ import Tooltip from "@mui/material/Tooltip";
 
 import KeyGenerator from "../KeyGenerator.tsx";
 
+
 function NavBarCrumbleSubMenu(props) {
     const [anchorElNav, setAnchorElNav] = React.useState < null | HTMLElement > (
         null
@@ -20,6 +21,7 @@ function NavBarCrumbleSubMenu(props) {
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         event.stopPropagation()
+        console.log(event.currentTarget)
         setAnchorElNav(event.currentTarget);
     };
 
@@ -37,15 +39,16 @@ function NavBarCrumbleSubMenu(props) {
                     anchorEl={anchorElNav}
                     anchorOrigin={{
                         vertical: "bottom",
-                        horizontal: "left"
+                        horizontal: "right"
                     }}
                     keepMounted
                     transformOrigin={{
-                        vertical: "top",
-                        horizontal: "left"
+                        vertical: "bottom",
+                        horizontal: "right"
                     }}
                     open={Boolean(anchorElNav)}
                     onClose={handleCloseNavMenu}
+                  
                     sx={{
                         display: { xs: "block", md: "block" }
                     }}>
@@ -66,7 +69,7 @@ function NavBarCrumbleSubMenu(props) {
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
                             onClick={handleOpenNavMenu}
-                            color="#000000"
+                           
                         >
                             <ArrowForwardIosIcon />
                         </IconButton>
