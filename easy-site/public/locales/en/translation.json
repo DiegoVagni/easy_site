@@ -1,4 +1,4 @@
-{
+﻿{
 	"menu": {
 		"services": "Services",
 		"team": "Team",
@@ -9,9 +9,79 @@
 		"webservices": "Web",
 		"mission": "Mission"
 	},
-	"miscellaneus": {
-		"graphicSeriveces": "Graphic Services",
-		"webServices": "Web Services"
+	"easypages": {
+		"graphicServices": {
+			"title": "graphic\ndesign",
+			"boards": {
+				"title": "billboards",
+				"text": "Signage concerns the design, production, and installation of signs and signs used to communicate information, advertise products or services, or indicate directions in public and private spaces. These signs can vary in size, materials, and purposes, from the small information sign to the huge advertising billboards along the streets. Signage combines elements of graphics, typography and, sometimes, illustration to effectively convey a message or direction, while ensuring visibility and readability from different distances and under different lighting conditions."
+			},
+			"signals": {
+				"title": "UI/UX design",
+				"text": "tib didn't pass it to me because he has a small and smooth brain :D (or maybe between the 30 he passed he got confused, who knows...I opt for the first option btw)"
+			},
+			"ctd": {
+				"title": "custom type design",
+				"text":"Custom type design refers to the creation and design of typefaces tailored to specific needs or applications. Unlike standard commercially available typefaces, a custom typeface is often designed to meet the specific needs of a brand, publication or of a particular project. This can include adapting letters to improve readability in specific contexts, creating unique glyphs, or designing an entire character set that reflects a brand's identity and values. Custom type design allows for greater originality and distinctiveness in visual communication."},
+			"pd": {
+				"title": "packaging design",
+				"text": "Packaging design concerns the creation and development of wrappers and packaging for products. In addition to protecting the contents and facilitating transport and storage, good packaging design has the task of attracting the attention of the consumer, communicate product features and benefits, and strengthen brand identity. This discipline combines elements of graphics, typography, illustration, and materials to create packaging that is both functional and aesthetically appealing. In a competitive market, well-designed packaging can significantly influence consumers' purchasing decisions."
+			},
+			"illustration": {
+				"title": "illustrations",
+				"text": "Illustration is a visual representation used to interpret, explain, or decorate a text, concept, or process. It can be achieved through various mediums, such as drawing, painting, digital graphics, or other artistic techniques. Illustrations are often used in books , magazines, posters, video games, design products and advertising to communicate ideas, tell stories or add an aesthetic element. There are many different styles and approaches to illustration, and the art of the illustrator is choosing the most suitable method to effectively convey the desired message or emotion."
+			},
+			"commerce": {
+				"title": "e-commerce",
+				"text": "Ecommerce creation is the process of designing, developing, and launching a website dedicated to selling products or services online. This process includes selecting an ecommerce platform (such as Shopify, WooCommerce, or Magento) , user interface design, integration of payment systems, configuration of product catalogs and inventory management. It is also essential to implement security measures to protect transactions and customer data. Creating an e-commerce It also requires an SEO marketing strategy to attract visitors and convert them into customers. The aim is to offer a smooth, secure and user-friendly online shopping experience"},
+			"eg": {
+				"title": "editoral graphic",
+				"text": "Editorial graphics concerns the design and composition of publications such as books, magazines, newspapers and catalogues. This discipline focuses on the organization and visual appearance of content, ensuring that text and images are presented in a clear, coherent manner and attractive. Elements such as the layout grid, typography, images, colors and spacing are fundamental in this field. The goal of editorial graphics is not only to make the publication aesthetically pleasing, but also to make it easier to read and understand of the content by the reader."
+			},
+			"cd": {
+				"title": "corporate design",
+				"text": "Corporate design refers to the coordinated and coherent image of a company or organization across all its visual touch points. This includes the logo, letterhead, business cards, website, advertising and any other communication material. The objective of corporate design is to ensure that a company's identity and values ​​are represented in a coherent and professional manner, thus creating strong recognition and trust among the public and customers."
+			},
+			"bs": {
+				"title": "brand strategy",
+				"text": "Brand strategy is a long-term plan that defines how a brand will be positioned in the market and how it will differentiate itself from its competitors. This strategy guides all decisions related to the brand, from communication to marketing, and aims to create an emotional connection between the brand and its audience. Brand strategy considers the essence of the brand, its values, its promise and how these elements can be communicated effectively to achieve business objectives."
+			},
+			"bi": {
+				"title": "brand identity",
+				"text": "The brand identity represents the set of visual and stylistic elements that a company uses to present itself to the public. These elements can include the logo, the color palette, the image design, the typographic characters and any other graphic elements that contribute to define the look and feel of a brand. Brand identity is what makes a company immediately recognizable to its customers and stands out from the competition."
+			}
+
+		},
+		"webServices": {
+			"title": "web\ndesign",
+			"coding": {
+				"title": "coding",
+				"text": "Coding, or programming, is the process of creating software, applications or websites using programming languages. It involves writing sequences of instructions that are executed by a computer or other device. These instructions, called code, they determine how the software functions and reacts to various user actions or inputs. Programming can be used to solve problems, automate processes, create user interfaces, manage and analyze data, among other applications. There are many programming languages, each with its specific characteristics to applications, such as Python, Java, Javascript and C++ etc..."
+			},
+			"UI": {
+				"title": "UI/UX design",
+				"text": "UI Design, or User Interface Design, concerns the design of interfaces for software and electronic devices, with the aim of ensuring an intuitive and pleasant user experience. It focuses on the aesthetic aspect of applications and websites , such as button layout, color selection, typographic font choice and icon creation. UI Design ensures that the interaction between the user and the device or software is smooth and efficient, minimizing possible confusions or difficulties of use. It works closely with UX Design to ensure that the interface not only looks good, but is also functional and user-centered.'"
+			},
+			"copywriting": {
+				"title": "copywriting",
+				"text": "copywriting is the art of writing promotional texts (also called \"copy\") with the aim of persuading or informing an audience and pushing them to take action, which can be the purchase of a product, the subscription of a service, or any other type of conversion. These texts can appear in advertisements, websites, brochures, emails, catalogs and other marketing materials. A good copywriter not only has writing skills, but also understands the needs and desires of the target audience, and knows how to communicate a message in an effective and engaging way."
+			},
+			"SEO": {
+				"title": "SEO",
+				"text": "SEO, acronym for \"Search Engine Optimization\", refers to the set of techniques and practices used to optimize a website or page in order to improve its visibility in search engines, such as Google or Bing. The objective The main goal of SEO is to increase organic (non-paid) traffic to a site, improving its position in search results. This includes optimizing content, keywords, meta tags, internal and external links, and site speed, including other factors. Good SEO can lead to an increase in online visibility by attracting more visitors and potentially generating more conversions or sales."
+			},
+			"social": {
+				"title": "social media",
+				"text": "Social media management is about creating, publishing, monitoring and analyzing content on social media platforms like Facebook, Instagram, X, Linkedin and others. It also includes iterating and engaging with users, responding to comments , managing reviews and participating in conversations. The main goal of social media management is to strengthen a brand's online presence, build and maintain a community of followers, and ultimately drive traffic and conversations to a website or a specific offering. Effective social media management requires a well-planned strategy, an understanding of your target audience, and the ability to adapt to trends and platform changes."	},
+			"commerce": {
+				"title": "e-commerce",
+				"text": "Ecommerce creation is the process of designing, developing, and launching a website dedicated to selling products or services online. This process includes selecting an ecommerce platform (such as Shopify, WooCommerce, or Magento) , user interface design, integration of payment systems, configuration of product catalogs and inventory management. It is also essential to implement security measures to protect transactions and customer data. Creating an e-commerce It also requires an SEO marketing strategy to attract visitors and convert them into customers. The aim is to offer a smooth, secure and user-friendly online shopping experience"		},
+			"multimedia": {
+				"title": "multimedia",
+				"text": "multimedia creation refers to the process of combining different types of content, such as text, images, audio and video, to create an integrated and interactive presentation. This type of content is often used in web applications, presentations, video games, art installations and e-learning training. Multimedia creation may require skills in graphics, animation, audio recording, video editing and programming, depending on the complexity of the project. The goal is to offer the public an engaging and immersive experience, taking advantage of the synergy between the different media used."
+			}
+		}
+
 	},
 	"texts": {
 		"graphicServices": "Graphic Services text",

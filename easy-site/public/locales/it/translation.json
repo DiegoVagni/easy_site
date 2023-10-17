@@ -1,31 +1,105 @@
 {
-	"menu": {
-		"services": "Servizi",
-		"team": "Team",
-		"contacts": "Contatti",
-		"projects": "Progetti",
-		"easy": "Easy",
-		"graphicservices": "Grafica",
-		"webservices": "Web",
-		"mission": "Missione"
-	},
-	"miscellaneus": {
-		"graphicServices": "Servizi grafici",
-		"webServices": "Servizi web"
-	},
-	"texts": {
-		"graphicSeriveces": "testo Servizi grafici",
-		"webServices": "testo Servizi web"
-	},
-	"projects": {
-		"clients": "Cliente",
-		"year": "Anno",
-		"description": "Descrizione",
-		"skills": "Skills"
-	},
+  "menu": {
+    "services": "Servizi",
+    "team": "Team",
+    "contacts": "Contatti",
+    "projects": "Progetti",
+    "easy": "Easy",
+    "graphicservices": "Grafica",
+    "webservices": "Web",
+    "mission": "Missione"
+  },
+  "easypages": {
+    "graphicServices": {
+      "title": "graphic\ndesign",
+      "boards": {
+        "title": "cartellonistica",
+        "text": "La cartellonistica riguarda la progettazione, produzione e installazione di cartelli e insegne utilizzate per comunicare informazioni, pubblicizzare prodotti o servizi, o indicare direzioni in spazi pubblici e privati. Questi cartelli possono variare in dimensioni, materiali e scopi, dal piccolo cartello informativo all'enorme billboard pubblicitario lungo le strade. La cartellonistica combina elementi di grafica, tipografia e, a volte, illustrazione per tramsettere efficacemente un messaggio o una direzione, garantendo al contempo visibilità e leggibilità da diverse distanze e in diverse condizioni di illuminazione."
+      },
+      "signals": {
+        "title": "UI/UX design",
+        "text": "tib non me l'ha passato perchè ha il cervello piccolo e liscio :D (o forse fra i 30 che ha passato ha fatto confusione, chi lo sa...io opto per la prima opzione btw)"
+      },
+      "ctd": {
+        "title": "custom type design",
+        "text": "Il custom type design si riferisce alla creazione e progettazione di caratteri tipografici su misura per specifiche esigenze o applicazioni. A differenza dei caratteri standard disponibili commercialmente, un carattere su misura è spesso progettato per soddisfare le specifiche necessità di un marchio, di una pubblicazione o di un progetto particolare. Questo può includere l'adattamento di lettere per migliorare la leggibilità in specifici contesti, la creazione di glifi unici o la progettazione di un intero set di caratteri che rifletta l'identità e i valori di un marchio. Il custom type design consente una maggiore originalità e distintività nella comunicazione visiva."
+      },
+      "pd": {
+        "title": "packaging design",
+        "text": "Il packaging design, o progettazione del confezionamento, riguarda la creazione e lo sviluppo di involucri e imballaggi per prodotti. Oltre a proteggere il contenuto e facilitarne il trasporto e la convservazione, un buon design del packaging ha il compito di attirare l'attenzione del consumatore, comunicare le caratteristiche e i benefici del prodotto e rafforzare l'identità del marchio. Questa disciplina combina elementi di grafica, tipografia, illustrazione e materiali per creare imballaggi che siano sia funzionali sia esteticamente accattivanti. In un mercato competitivo, un packaging ben progettato può influenzare significamente le decisioni d'acquisto dei consumatori."
+      },
+      "illustration": {
+        "title": "illustrazione",
+        "text": "L'illustrazione è una rappresentazione visiva utilizzata per interpretare, spiegare o decorare un testo, un concetto o un processo. Può essere realizzata attraverso vari mezzi, come disegno, pittura, grafica digitale o altre tecniche artistiche. Le illustrazioni sono spesso utilizzate in libri, riviste, poster, videogiochi, prodotti di design e pubblicità per comunicare idee, raccontare storie o aggiungere un elemento estetico. Esistono diversi stili e approcci all'illustrazione, e l'arte dell'ullustratore sta nel scegliere il metodo più adatto per trasmettere efficacemente il messaggio o l'emozione desiderata."
+      },
+      "commerce": {
+        "title": "e-commerce",
+        "text": "La creazione di un e-commerce riguarda il processo di progettazione, sviluppo e lancio di un sito web dedicato alla vendita di prodotti o servizi online. Questo processo include la selezione di una piattaforma di e-commerce (come Shopify, WooCommerce o Magento), la progettazione dell'interfaccia utente, l'integrazione di sistemi di pagamento, la configurazione di cataloghi prodotto e la gestione delle scorte. Inoltre è essenziale implementare misure di sicurezza per proteggere le transazioni e i dati dei clienti. La creazione di un e-commerce richiede anche una strategia di marketing SEO per attirare visitatore e convertirli in clienti. La finalità è offrire un'esperienza di acquisto online fluida, sicura e user-friendly"
+      },
+      "eg": {
+        "title": "grafica editoriale",
+        "text": "La grafica editoriale riguarda la progettazione e la composizione di pubblicazioni come libri, riviste, giornali e cataloghi. Questa disciplina si concentra sull'organizzazione e sull'aspetto visivo dei contenuti, garantendo che il testo e le immagini siano presentati in modo chiaro, coerente e attraente. Elementi come la griglia di layout, la tipografia, le immagini, i colori e la spaziatura sono fondamentali in questo campo. L'obiettivo della grafica editoriale è non solo rendere la pubblicazione esteticamente piacevole, ma anche facilitarne la lettura e la comprensione del contenuto da parte del lettore."
+      },
+      "cd": {
+        "title": "corporate design",
+        "text": "Il corporate design si riferisce all'immagine coordinata e coerente di un'azienda o di un'organizzazione attraverso tutti i suoi punti di contatto visivi. questo include il logo, la carta intestata, i biglietti da visita, il sito web, la pubblicità e qualsiasi altro materiale di comunicazione. L'obiettivo del corporate design è garantire che l'identità e i valori di un'azienda siano rappresentati in modo coerente e professionale, creando così una forte riconoscibilità e fiducia tra il pubblico e i clienti."
+      },
+      "bs": {
+        "title": "brand strategy",
+        "text": "La brand strategy è un piano a lungo termine che definisce come un marchio sarà posizionato nel mercato e come si differenzierà dai suoi concorrenti. Questa strategia guida tutte le decisioni relative al marchio, dalla comunicazione al marketing, e mira a creare una connessione emotiva tra il marchio e il suo pubblico. La brand strategy considera l'essenza del marchio, i suoi valori, la sua promessa e come questi elementi possono essere comunicati in modo efficiente per raggiungere gli obiettivi aziendali."
+      },
+      "bi": {
+        "title": "brand identity",
+        "text": "La brand identity rappresenta l'insieme di elementi visivi e stilistici che un'azienda utilizza per presentarsi al pubblico. Questi elementi possono includere il logo, la palette di colori, il design delle immagini, i caratteri tipografici e qualsiasi altro elemento grafico che contribuisce a definire l'aspetto e la sensazione di un marchio. La brand identity è ciò che rende un'azienda immediatamente riconoscibile ai suoi clienti e si distingue dalla concorrenza."
+      }
 
-	"deployedProjects": {
-		"Tarzanello": "un lavoro pubblicitario per una ditta di tarzanelli..che sono un po' come sarcazzi ma meno sarcazzosi'",
-		"TarzanelloSkills": "web design graphic design\n pubblicitosità\n tarzanellosità estrema"
-	}
+    },
+    "webServices": {
+      "title": "web\ndesign",
+      "coding": {
+        "title": "coding",
+        "text": "Il coding, o programmazione, è il processo di creazione di software, applicazioni o siti web utilizzando linguaggi di programmazione. Esso implica la scrittura di sequenze di istruzioni che vengono eseguite da un computer o da un altro dispositivo. Queste istruzioni, chiamate codice, determinano come il software funziona e reagisce alle varie azioni o input dell'utente. La programmazione può essere utilizzata per risolvere problemi, automatizzare processi, creare interfacce utente, gestire e eanalizzare dati, tra le altre applicazioni. Esistono molti linguaggi di programmazione, ognuno con le sue specifiche caratteristiche a pplicazioni, come Python, Java, Javascript e C++ etc..."
+      },
+      "UI": {
+        "title": "UI/UX design",
+        "text": "L'UI Design, o Design dell'interfaccia Utente, riguarda la progettazione delle interfacce per software e dispositivi elettronici, con l'obiettivo di garantire un'esperienza utente intuitiva e piacevole. Si concentra sull'aspetto estetico delle applicazioni e dei siti web, come la disposizione dei pulsanti, la selezione dei colori, la scelta dei caratteri tipografici e la creazione di icone. L'UI Design assicura che l'interazione tra l'utente e il dispositivo o software sia fluida e efficiente, riducendo al minimo possibili confusioni o difficoltà d'uso. Esso lavora in stratta collaborazione con l'UX Design (Design dell'Esperienza Utente) per garantire che l'interfaccia non solo appaia bene, ma sia anche funzionante e centrata sull'utente.'"
+      },
+      "copywriting": {
+        "title": "copywriting",
+        "text": "il copywriting è l'arte di scrivere testi promozionaly (chiamati anche \"copy\") con l'obiettivo di persuadere o informare un pubblico e spingerlo all'azione, che può essere l'acquisto di un prodotto, la sottoscrizione di un servizio, o qualsiasi altro tipo di conversione. Questi testi possono apparire in pubblicità, siti web, brochure, e-mail, cataloghi e altri materiali di marketing. Un buon copywriter non solo ha abilità nella scrittura, ma comprende anche le esigenze e i desideri del pubblico di riferimento, e sa come comunicare un messaggio in maniera efficace e coinvolgente."
+      },
+      "SEO": {
+        "title": "SEO",
+        "text": "SEO, acronimo di \"Search Engine Optimization\", si riferisce all'insieme di tecniche e pratiche utilizzate per ottimizzare un sito web o una pagina al fine di migliorarne la visibilità nei motori di ricerca, come Google o Bing. L'obiettivo principale della SEO è aumentare il traffico organico (non a pagamento) verso un sito, migliorando la sua posizione nei risultati di ricerca. Ciò include l0ottimizzazione di contenuti, parole chiave, meta tag, link interni ed esterni, e la velocità del sito, tra gli altri fattori. Una buona SEO può portare a un aumento della visibilità online attirando più visitatori e potenzialmente generando più conversioni o vendite."
+      },
+      "social": {
+        "title": "social media",
+        "text": "La gestione dei social media riguarda la creazione,, pubblicazione, monitoraggio e analisi dei contenuti su piattaforme di social media come Facebook, Instagram, X, Linkedin e altre. Include anche l'iterazione e l'ingaggio con gli utenti, rispondendo ai commenti, gestendo le recensioni e partecipando alle conversazioni. L'obiettivo principale della gestione dei social media è rafforzare la presenza online di un marchio, costruire e mantenere una comunità di seguaci, e in ultima analisi, guidare il traffico e le conversazioni verso un sito web o un'offerta specifica. Una gestione efficace dei social media richiede una strategia ben pianificata, una comprensione del pubblico di riferimento e la capacità di adattarsi alle tendenze e ai cambiamenti delle piattaforme."
+      },
+      "commerce": {
+        "title": "e-commerce",
+        "text": "La creazione di un e-commerce riguarda il processo di progettazione, sviluppo e lancio di un sito web dedicato alla vendita di prodotti o servizi online. Questo processo include la selezione di una piattaforma di e-commerce (come Shopify, WooCommerce o Magento), la progettazione dell'interfaccia utente, l'integrazione di sistemi di pagamento, la configurazione di cataloghi prodotto e la gestione delle scorte. Inoltre è essenziale implementare misure di sicurezza per proteggere le transazioni e i dati dei clienti. La creazione di un e-commerce richiede anche una strategia di marketing SEO per attirare visitatore e convertirli in clienti. La finalità è offrire un'esperienza di acquisto online fluida, sicura e user-friendly"
+      },
+      "multimedia": {
+        "title": "multimedia",
+        "text": "la creazione di multimedia si riferisce al processo di combinare diversi tipi di contenuti, come testo, immagini, audio e video, per creare una presentazione integrata e interattiva. Questo toipo di contenuto è spesso utilizzato in applicazioni web, presentazioni, videogiochi, installazioni artistiche e formazione e-learning. La creazione di multimedia può richiedere competenze in grafica, animazione, registrazione audio, montaggio video e programmazione, a seconda della complessità del progetto. L'obiettivo è offrire al pubblico un'esperienza coinvolgente e immersiva, sfruttando la sinergia tra i diversi media utilizzati."
+      }
+    }
+
+  },
+  "texts": {
+    "graphicSeriveces": "testo Servizi grafici",
+    "webServices": "testo Servizi web"
+  },
+  "projects": {
+    "clients": "Cliente",
+    "year": "Anno",
+    "description": "Descrizione",
+    "skills": "Skills"
+  },
+
+  "deployedProjects": {
+    "Tarzanello": "un lavoro pubblicitario per una ditta di tarzanelli..che sono un po' come sarcazzi ma meno sarcazzosi'",
+    "TarzanelloSkills": "web design graphic design\n pubblicitosità\n tarzanellosità estrema"
+  }
 }

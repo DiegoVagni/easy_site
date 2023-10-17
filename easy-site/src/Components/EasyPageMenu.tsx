@@ -14,13 +14,16 @@ function EasyPageMenu(props) {
         event.stopPropagation();
         SetIndex(event.target.getAttribute("value"));
     };
-
+    var check = textIndex > 0;
+    
     return (
         <Box sx={{
             flexGrow: 1, display: "flex", flexDirection:"row"
         }}>
             <Typography key={KeyGenerator.GetNextKey()}
-                
+                value={0}
+                onMouseEnter={changeIndex}
+                onMouseExit={changeIndex}
                 aria-label={props.title}
                 sx={{ my: 2, mr: 1, ml: 1,  display: "block" }} variant="h5">
                 {props.title}</Typography>
@@ -28,13 +31,18 @@ function EasyPageMenu(props) {
             <Box sx={{
                 flexGrow: 1, display: "flex", flexDirection: "column"
             }}>
-                {props.subpages.map((spage, index) => (
-                    <Typography variant="h5" sx={{ color: 'inherit' }} aria-label={spage} value={index} key={KeyGenerator.GetNextKey()} onMouseEnter={changeIndex}>
-                        {<p>{spage}</p>}</Typography>
-                ))}
+                {props.subpages.map((spage, index) => {
+                    let weight = "regular";
+                    if (index + 1 == textIndex) {
+                        weight = "bold"
+                    }
+                    return (<Typography variant="h5" sx={{ color: 'inherit', fontWeight: weight }} aria-label={spage} value={index + 1} key={KeyGenerator.GetNextKey()} onMouseEnter={changeIndex} >
+                        {<p>{spage}</p>}</Typography>)
+                })}
             </Box>
-            <Box sx={{ flexGrow: 1.5, m:1}}>
-                <Textdisplay text={props.texts[textIndex]} />
+            <Box sx={{ flexGrow: 1.5, m: 1 }}>
+                {check ? <Textdisplay text={props.texts[textIndex - 1]} />: <div></div>}
+                
             </Box>
         </Box>)
 }
